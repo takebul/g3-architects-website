@@ -4,6 +4,107 @@
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400;
   font-style: normal;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* shared styles */
+/* .font-size 18 */
+.font-size-18{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.font-size-16{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* dark 02 */
+.text-gray{
+    color: #424242;
+}
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+/* yellow color */
+.yellow-color{
+    background-color: #FF900E;
+    color: #ffffff;
+}
+
+.color-yellow{
+    color: #FF900E;
+}
+/* header styles */
+
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+}
+
+.nav-links, a{
+    gap: 36px;
+    text-decoration: none;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.navbar, .banner{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 240px 0 228px;
+    align-items: center;
+}
+
+.brand{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.banner{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brand-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.brand-description, .brand-title {
+    width: 868px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    line-height: auto;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    width: 11.4rem;
+    height: 4rem;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem 1.4rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.banner img{
+    max-width: 1440px;
+    width: 100%;
+    margin-bottom: 2.8rem;
 }
