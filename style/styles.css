@@ -136,3 +136,75 @@
 .margin-top{
     margin-top: 1rem;
 }
+
+.enjoying-features{
+    max-width: 1920px;
+    /* max-width: 1440px; */
+    display: flex;
+    margin: 130px 240px;
+}
+
+.enjoying-features-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 0.8rem;
+}
+
+.enjoying-features-description{
+    line-height: 1.5rem;
+}
+
+.card{
+    /* width: 586px; */
+    /* height: 171px; */
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 1.9rem 2.4rem 1.9rem 1.9rem;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card-description{
+    /* width: 514px; */
+    line-height: 1.5rem;
+}
+
+.architect{
+    margin-left: 146px;
+    margin-top: 130px;
+    border-radius: 8px;
+    size: 6em;
+}
+
+.experience{
+    width: 342px;
+    height: 120px;
+    background-color: #FF900E;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 53px 42px;
+    margin-top: -180px;
+    margin-left: -100px;
+    
+}
+
+.ep{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.ex{margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.border-none{
+    border: none;
+    width: 330px;
+    height: 200px;
+    box-shadow: none;
+}
