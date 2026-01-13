@@ -108,3 +108,31 @@
     width: 100%;
     margin-bottom: 2.8rem;
 }
+
+.our-features{
+    display: flex;
+    padding-left: 18.6rem;
+    margin-top: 5.2rem;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1.4rem;
+}
+
+.our-features-container{
+    width: 38.4rem;
+    margin-top: 12rem;
+    margin-left: 4.3rem;
+}
+
+.our-features-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
