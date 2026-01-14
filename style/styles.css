@@ -278,11 +278,12 @@
 }
 
 footer{
-    width: 1200px;
+    max-width: 1920px;
+    width: auto;
     height: 100px;
     text-align: center;
     background-color: #FFF4E7;
-    margin: 130px 25px 100px;
+    margin: 0 auto;
     border-radius: 8px;
 }
 
@@ -307,12 +308,15 @@ footer p{
     .brand-title {
     font-size: 1.5rem;}
     title {
+        max-width: 576px;
     width: 480px;}
     .brand-title {
+        max-width: 576px;
     width: 480px;
     margin: 0 auto;
     padding-bottom: 0.6rem;}
     .brand-description, .brand-title {
+        max-width: 576px;
     width: 255px;}
     .font-size-16 {
     font-size: 5px;}
@@ -352,6 +356,7 @@ footer p{
     .enjoying-features {
     /* max-width: 1920px; */
     /* max-width: 1440px; */
+    max-width: 576px;
     flex-direction: column;
     margin: 60px 0px;}
     .enjoying-features-description {
@@ -359,9 +364,11 @@ footer p{
     font-size: 10px;}
     .card-description {
     /* width: 514px; */
+    max-width: 576px;
     line-height: 15px;
     font-size: 10px;}
     .card {
+        max-width: 576px;
     width: 365px;
     height: 103px;
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
@@ -370,6 +377,7 @@ footer p{
     margin-bottom: 1.25rem;
     margin-left: 55px;}
     .architect img {
+        max-width: 576px;
     width: 400px;
     height: 649px;
     margin-left: 55px;}
@@ -423,6 +431,7 @@ footer p{
     /* padding-left: 154px; */
     padding: 20px;}
     footer {
+        max-width: 576px;
     width: 400px;
     height: 65px;
     text-align: center;
