@@ -292,3 +292,144 @@ footer p{
     font-weight: 400;
 }
 
+@media screen and (max-width:576px) {
+    .navbar, .banner{
+        padding: 0px 5px 0 5px;
+    align-items: center;
+    }
+    .brand{
+        font-size: 1rem;
+    }
+    .nav-links, a {
+    gap: 25px;}
+    .font-size-18 {
+    font-size: 8px;}
+    .brand-title {
+    font-size: 1.5rem;}
+    title {
+    width: 480px;}
+    .brand-title {
+    width: 480px;
+    margin: 0 auto;
+    padding-bottom: 0.6rem;}
+    .brand-description, .brand-title {
+    width: 255px;}
+    .font-size-16 {
+    font-size: 5px;}
+    .brand-description{
+    padding-bottom: 1.25rem;}
+    .btn {
+    border: none;
+    border-radius: 8px;
+    width: 7.4rem;
+    height: 3rem;
+    margin-bottom: 50px;
+    font-size: 0.6rem;}
+    .banner img{
+    margin-bottom: 1.8rem;}
+    .grid-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.6rem;}
+    .our-features-container {
+    width: 10.4rem;
+    margin-top: 20rem;
+    margin-left: 0.6rem;}
+    .our-features {
+    flex-direction: column;
+    padding-left: 4.5rem;
+    /* padding-right: 2rem; */
+    margin-top: 3.2rem;}
+    .our-features-title {
+    font-size: 1.3rem;}
+        .our-features-container{
+        width: 24.4rem;
+        margin-top: 2rem;
+        margin-left: -0.4rem;
+    }
+    .enjoying-features {
+    /* max-width: 1920px; */
+    /* max-width: 1440px; */
+    flex-direction: column;
+    margin: 60px 0px;}
+    .enjoying-features-description {
+    line-height: 15px;
+    font-size: 10px;}
+    .card-description {
+    /* width: 514px; */
+    line-height: 15px;
+    font-size: 10px;}
+    .card {
+    width: 365px;
+    height: 103px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: .1rem 0.4rem 2.9rem 1.9rem;
+    border-radius: 8px;
+    margin-bottom: 1.25rem;
+    margin-left: 55px;}
+    .architect img {
+    width: 400px;
+    height: 649px;
+    margin-left: 55px;}
+    .experience {
+    width: 125px;
+    height: 38px;
+    background-color: #FF900E;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 29px 2px;
+    margin-top: -172px;
+    margin-left: 3px;}
+    .ep {
+    font-size: 1.4rem;}
+    .ex {
+    margin-top: 5px;
+    font-size: 10px;}
+    .facts-container h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0px;}
+    .facts-container p{
+        font-size: 7px;
+    }
+    .facts {
+    margin-left: 1px;}
+    .facts-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    margin-top: 65px;}
+    .facts-card .icon {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 0px 0px 0px;
+    padding-bottom: 20px;
+    text-align: center;}
+    .text h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 0 0px;}
+    .text p {
+    font-size: 10px;}
+    .sponsors-container h1 {
+    font-size: 32px;}
+    .sponsors-container p{
+        font-size: 9px;
+    }
+    .sponsors-logo img {
+    /* padding-left: 154px; */
+    padding: 20px;}
+    footer {
+    width: 400px;
+    height: 65px;
+    text-align: center;
+    background-color: #FFF4E7;
+    margin: 20px 40px 65px;}
+    footer p {
+    padding-top: 27px;
+    font-size: 11px;
+    font-weight: 400;}
+}
